@@ -1,0 +1,104 @@
+body #main-section .menu {
+  background-color: black;
+  width: 1350px;
+  height: 50px;
+}
+
+body #main-section .menu #apple {
+  margin-left: 80px;
+  float: left;
+}
+
+body #main-section .menu li {
+  float: left;
+  font: bold 10px;
+  color: white;
+  list-style: none;
+  display: block;
+  width: 90px;
+  height: 10px;
+  padding: 20px 20px;
+}
+
+body #main-section .menu #search {
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body #main-section .menu #face {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 20px;
+  float: left;
+}
+
+body #main-section .menu #insta {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 30px;
+  float: left;
+}
+
+body #main-section .menu li {
+  font: bold 10px;
+  color: white;
+  list-style: none;
+  display: block;
+  width: 90px;
+  height: 10px;
+  float: left;
+}
+
+body #main-section .menu li:hover {
+  color: darkred;
+}
+
+body #main-section .middiv1 {
+  background-color: lightsalmon;
+  width: 1100px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+body #main-section .middiv1 #ip {
+  background-position: top;
+  float: left;
+}
+
+body #main-section .althisse {
+  width: 1100px;
+  height: 200px;
+  background-color: honeydew;
+  margin: 0 auto;
+}
+
+body #main-section li {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+body #main-section .bottom {
+  width: 1100px;
+  height: 300px;
+  background-image: url("white.jpg");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+body #main-section .bottom pre {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: right;
+  font: 25px bold;
+}
+
+body #main-section .bottom input {
+  background-color: royalblue;
+  border-radius: 40px;
+  width: 70px;
+  height: 50px;
+  margin-left: 950px;
+}
+/*# sourceMappingURL=style.css.map */
