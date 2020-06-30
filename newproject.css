@@ -1,0 +1,137 @@
+body #main-section .ust {
+  background-color: #282629;
+  width: 100%;
+  height: 60px;
+}
+
+body #main-section .ust pre {
+  color: white;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  float: left;
+  padding-top: 1px;
+  padding-left: 150px;
+}
+
+body #main-section .ust #try {
+  display: block;
+  width: 80px;
+  height: 30px;
+  border: 2px solid white;
+  float: left;
+  color: white;
+  margin-top: 19px;
+  text-align: center;
+  margin-left: 40px;
+  border-radius: 45px;
+}
+
+body #main-section .ust #try:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+body #main-section .menu {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #a1a39b;
+}
+
+body #main-section .menu #list1 {
+  display: block;
+  width: 100px;
+  height: 40px;
+  list-style: none;
+  float: left;
+  color: dimgray;
+  font-size: 25px;
+}
+
+body #main-section .menu #list2 {
+  display: block;
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 40px;
+  color: dimgray;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+body #main-section .menu #list3 {
+  display: block;
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 40px;
+  color: dimgray;
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+body #main-section .menu #list4 {
+  display: block;
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 40px;
+  color: dimgray;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+body #main-section .menu .son1 {
+  width: 60px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-left: 650px;
+  font-size: 20px;
+  color: dimgray;
+}
+
+body #main-section .menu .son1:hover {
+  color: black;
+  cursor: pointer;
+}
+
+body #main-section .menu .son2 {
+  width: 100px;
+  height: 40px;
+  display: block;
+  float: left;
+  padding-left: 30px;
+  font-size: 20px;
+  color: dimgray;
+}
+
+body #main-section .menu .son2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+body #main-section #insta {
+  margin-top: 200px;
+  background-attachment: fixed;
+}
+
+body #main-section #insta:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body #main-section #face {
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+body #main-section #face:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=newproject.css.map */
