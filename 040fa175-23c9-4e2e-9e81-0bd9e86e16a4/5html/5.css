@@ -1,0 +1,326 @@
+body {
+  background-image: url(alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body main .container .row header {
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  z-index: 10;
+  position: fixed;
+}
+
+body main .container .row header h1 {
+  color: #ede9f0;
+  float: left;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 5px white;
+}
+
+body main .container .row header ul {
+  float: left;
+  padding-top: 15px;
+}
+
+body main .container .row header ul li {
+  list-style: none;
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+body main .container .row header ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #a82424;
+}
+
+body main .container .row header img {
+  width: 50px;
+}
+
+body main .container .row header img:hover {
+  cursor: pointer;
+}
+
+body main .container .row aside {
+  width: 100%;
+  height: 895px;
+}
+
+body main .container .row aside .orta {
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 11em;
+}
+
+body main .container .row aside .orta h1 {
+  font: 50px bold;
+  color: #5f5d5d;
+}
+
+body main .container .row aside .orta h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+}
+
+body main .container .row aside .orta button {
+  width: 150px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+body main .container .row section {
+  height: 900px;
+}
+
+body main .container .row section .top h4 {
+  color: #494647;
+  margin-top: 5em;
+  font: 30px bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #ac0b0b;
+}
+
+body main .container .row section .top pre {
+  margin-top: 2em;
+  font-size: 18px;
+  color: #484e53;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body main .container .row section .top2 {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+body main .container .row section .top2 .carousel {
+  border: 1px solid #cac5c5;
+}
+
+body main .container .row article {
+  width: 100%;
+  height: 600px;
+}
+
+body main .container .row article .card {
+  margin-top: 7em;
+  height: 450px;
+}
+
+body main .container .row article .card img {
+  width: 600px;
+  padding-top: 50px;
+}
+
+body main .container .row article .card .card-body .card-text {
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 9em;
+}
+
+body main .container .row .top3 {
+  width: 100%;
+  height: 680px;
+}
+
+body main .container .row .top3 h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+  color: #5f5d5d;
+  border-bottom: 2px solid #ac0b0b;
+}
+
+body main .container .row .top3 pre {
+  padding-top: 30px;
+  font-size: 18px;
+  color: #484e53;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body main .container .row .top3 .card-deck {
+  margin-top: 5em;
+}
+
+body main .container .row .top3 .card-deck .card img {
+  width: 80px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+body main .container .row .top3 .card-deck .card img:hover {
+  cursor: pointer;
+}
+
+body main .container .row .top3 .card-deck .card .card-body .card-title {
+  margin-left: 4em;
+  padding-top: 20px;
+}
+
+body main .container .row .top3 .card-deck .card .card-body .card-text {
+  padding-top: 30px;
+}
+
+body main footer {
+  width: 100%;
+  height: 400px;
+  background-color: #36363a;
+}
+
+body main footer .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5em;
+}
+
+body main footer .flex-container .SIMPLESITE {
+  width: 300px;
+  height: 320px;
+  padding-top: 50px;
+}
+
+body main footer .flex-container .SIMPLESITE h2 {
+  font: 16px;
+  text-align: center;
+  color: white;
+}
+
+body main footer .flex-container .SIMPLESITE p {
+  font-size: 13px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body main footer .flex-container .SIMPLESITE img {
+  padding-top: 20px;
+}
+
+body main footer .flex-container .SIMPLESITE img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body main footer .flex-container .PRODUCT {
+  padding-top: 50px;
+  width: 200px;
+  height: 300px;
+}
+
+body main footer .flex-container .PRODUCT h2 {
+  font: 16px;
+  text-align: center;
+  color: white;
+}
+
+body main footer .flex-container .PRODUCT ul li {
+  color: white;
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+}
+
+body main footer .flex-container .PRODUCT ul li:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+body main footer .flex-container .COMPANY {
+  padding-top: 50px;
+  width: 250px;
+  height: 400px;
+}
+
+body main footer .flex-container .COMPANY h2 {
+  font: 16px;
+  text-align: center;
+  color: white;
+}
+
+body main footer .flex-container .COMPANY ul li {
+  color: white;
+  display: block;
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+}
+
+body main footer .flex-container .COMPANY ul li:hover {
+  border-bottom: 1px solid  white;
+  cursor: pointer;
+}
+
+body main footer .flex-container .COMMUNITY {
+  width: 200px;
+  height: 200px;
+  padding-top: 50px;
+}
+
+body main footer .flex-container .COMMUNITY h2 {
+  font: 16px;
+  text-align: center;
+  color: white;
+}
+
+body main footer .flex-container .COMMUNITY ul li {
+  color: white;
+  display: block;
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+}
+
+body main footer .flex-container .COMMUNITY ul li:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=5.css.map */
