@@ -1,0 +1,419 @@
+@media only screen and (max-width: 600px) {
+  body{
+    main{
+        .container{
+            .row{
+                header{
+                    .flex-container{
+                         padding-top: 10px;
+                        width: 100%;
+                        height: 60px;
+                        background-color: rgb(196, 204, 196);
+       
+                        display: flex;
+                        justify-content: space-between;;
+                        flex-direction: row;
+
+                        .left{
+                             width: 120px;
+                               height: 50px;
+                                
+
+                               ul{
+                                   li{
+                                       list-style: none;
+                                        float: left;
+                                        display: block;
+                                        width: 100px;
+                                        font-size: 5px;
+                                        color: rgb(92, 89, 89);
+
+                                        &:hover{
+
+                                            cursor: pointer;
+                                            color: grey;
+                                        }
+                                         
+                                   }
+                               }
+                        }
+
+
+                        .center{
+                            width: 150px;
+                            height: 60px;
+                               
+
+                               P{
+                                   color: black;
+                                    letter-spacing: 2px;
+                                   font: 15px bold;
+
+                                   &:hover{
+                                       transform: scale(1.2);
+                                   }
+                               }
+
+                        }
+
+
+                        .right{
+                            display: flex;
+                            flex-direction: row;
+                             justify-content: space-around;
+                             padding-top: 10px;
+
+                            width: 100px;
+                            height: 50px;
+                               
+
+                               img{
+
+                                 float: left;
+                                  width: 10px;
+                                  height: 10px;
+
+                                  &:hover{
+                                    opacity: 0.3;
+                                    cursor: pointer;
+                                            
+                                }
+                                   
+
+                               }
+                        }
+                    }
+
+                     .top{
+                         width: 300px;
+                         height: 50px;
+                            margin: 0 auto;
+
+                         ul{
+                             li{
+                                 list-style: none;
+                                 color: grey;
+                                 font: 7px bold;
+                                 display: block;
+                                 width: 50px;
+                                 float: left;
+
+                                 &:hover{
+                                     cursor: pointer;
+                                      transform: scale(1.2);
+                                      color: black;
+                                 }
+                             }
+                         }
+
+                     }
+
+                }
+
+
+                aside{
+                    .center{
+                          width:  300px;
+                          height: 220px;
+                          
+                          margin: 0 auto;
+                           
+                          
+
+                          .center1{
+
+                            width: 150px;
+                            float: left;
+                            
+
+                            img{
+                                width: 150px;
+
+                                &:hover{
+                                    opacity: 0.5;
+                                }
+                            }
+
+                          }
+                          .center2{
+                               
+                             width: 150px;
+                             float: left;
+
+                             img{
+                                 width: 150px;
+
+                                 &:hover{
+                                    opacity: 0.5;
+                                }
+                             }
+                          }
+
+                         
+                    }
+
+                     .alt{
+                        width:  300px;
+                        height: 250px;
+                         
+                        margin: 0 auto;
+
+                       .alt1{
+
+                        width: 150px;
+                        float: left;
+
+                        img{
+                            width: 150px;
+
+                            &:hover{
+                                opacity: 0.5;
+                            }
+                        }
+
+                       }
+                        .alt2{
+                                
+
+                            width: 150px;
+                            float: left;
+
+                            img{
+                                width: 150px;  
+
+                                &:hover{
+                                    opacity: 0.5;
+                                }
+                            }
+
+
+                        }
+
+
+                     }
+
+
+
+                }
+
+                   section{
+                       height: 220px;
+                        
+                       width: 100%;
+
+                    pre{
+                        text-align: center;
+                         letter-spacing: 5px;
+                        color: rgb(202, 165, 233);
+                         font-size: 10px;
+                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        
+                    }
+
+                       .flexcontainer1{
+                           padding-top: 20px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                             .div1{
+                                  width: 60px;
+                                  img{
+                                      width: 60px;
+
+                                      &:hover{
+                                          opacity: 0.5;
+                                      }
+                                  }
+                                    .star{
+                                        width: 5px;
+                                    }
+
+                                    .star2{
+                                        width: 5px;
+
+                                        &:hover{
+                                            cursor: pointer;
+                                        }
+                                    }
+                             }
+
+                             .div2{
+                                width: 60px;
+
+                                img{
+                                    width: 60px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 5px;
+                                  }
+
+                                  .star2{
+                                      width: 5px;
+
+                                      &:hover{
+                                          cursor: pointer;
+                                      }
+                                  }
+
+
+                             }
+
+
+                             .div3{
+                                width: 60px;
+
+                                img{
+                                    width: 60px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 5px;
+                                  }
+
+                                   
+                             }
+
+                             .div4{
+                                width: 60px;
+
+                                img{
+                                    width: 60px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 5px;
+                                  }
+
+                                  .star2{
+                                      width: 5px;
+
+                                      &:hover{
+                                          cursor: pointer;
+                                      }
+                                  }
+                             }
+
+                       }
+
+                  
+            }
+
+           footer{
+               
+             width: 100%;
+             height: 180px;
+             
+             background-color: rgb(196, 204, 196);
+              
+
+              .son{
+                  padding-top: 5px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                 .sag{
+                       ul{
+                           li{
+                               list-style: none;
+                               display: block;
+                               width: 70px;
+                               float: left;
+                               font: 8px bold;
+                               color: grey;
+                               &:hover{
+                                   color: black;
+                                   cursor: pointer;
+                               }
+                           }
+                       }
+
+                 }
+
+                 .orta{
+                    width: 140px;
+                    height: 50px;
+                       
+
+                       P{
+                           color: black;
+                            letter-spacing: 5px;
+                           font: 15px bold;
+
+                           &:hover{
+                               transform: scale(1.2);
+                           }
+                       }
+
+                 }
+                  .sol{
+                        width: 200px;
+                         h6{
+                             font: 6px bold;
+                             color: grey;  float: left;
+                         }
+                         img{
+                             padding-top: 15px;
+                             padding-left: 5px;
+                             width: 10px;
+                             float: left;
+                              &:hover{
+                                  transform: scale(1.2);
+                              }
+                         }
+                  }
+              }
+            
+                h3{
+                    color: rgb(97, 94, 94);
+                    text-align: center;
+                    padding-top: 20px;
+                    font: 10px bold;
+                    
+                     
+                    &:hover{
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+
+
+           }
+
+
+
+
+        }
+    }
+}
+}
+     
+  }
+  
+   
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+     
+  } 
+  
+   
+  @media only screen and (min-width: 992px) {
+     
+  } 
+  
+   
+  @media only screen and (min-width: 1200px) {
+     
+  }

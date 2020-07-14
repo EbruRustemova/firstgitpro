@@ -1,0 +1,397 @@
+body{
+    main{
+        .container{
+            .row{
+                header{
+                    .flex-container{
+                         padding-top: 10px;
+                        width: 100%;
+                        height: 60px;
+                        background-color: rgb(196, 204, 196);
+       
+                        display: flex;
+                        justify-content: space-between;;
+                        flex-direction: row;
+
+                        .left{
+                             width: 200px;
+                               height: 60px;
+                                
+
+                               ul{
+                                   li{
+                                       list-style: none;
+                                        float: left;
+                                        display: block;
+                                        width: 80px;
+                                        font-size: 15px;
+                                        color: rgb(92, 89, 89);
+
+                                        &:hover{
+
+                                            cursor: pointer;
+                                            color: grey;
+                                        }
+                                         
+                                   }
+                               }
+                        }
+
+
+                        .center{
+                            width: 150px;
+                            height: 60px;
+                               
+
+                               P{
+                                   color: black;
+                                    letter-spacing: 5px;
+                                   font: 25px bold;
+
+                                   &:hover{
+                                       transform: scale(1.2);
+                                   }
+                               }
+
+                        }
+
+
+                        .right{
+                            display: flex;
+                            flex-direction: row;
+                             justify-content: space-around;
+                             padding-top: 10px;
+
+                            width: 150px;
+                            height: 50px;
+                               
+
+                               img{
+
+                                 float: left;
+                                  width: 15px;
+                                  height: 15px;
+
+                                  &:hover{
+                                    opacity: 0.3;
+                                    cursor: pointer;
+                                            
+                                }
+                                   
+
+                               }
+                        }
+                    }
+
+                     .top{
+                         width: 700px;
+                         height: 50px;
+                            margin: 0 auto;
+
+                         ul{
+                             li{
+                                 list-style: none;
+                                 color: grey;
+                                 font: 17px bold;
+                                 display: block;
+                                 width: 110px;
+                                 float: left;
+
+                                 &:hover{
+                                     cursor: pointer;
+                                      transform: scale(1.2);
+                                      color: black;
+                                 }
+                             }
+                         }
+
+                     }
+
+                }
+
+
+                aside{
+                    .center{
+                          width:  1000px;
+                          height: 650px;
+                          
+                          margin: 0 auto;
+                           
+                          
+
+                          .center1{
+
+                            width: 500px;
+                            float: left;
+                            
+
+                            img{
+                                width: 500px;
+
+                                &:hover{
+                                    opacity: 0.5;
+                                }
+                            }
+
+                          }
+                          .center2{
+                               
+                             width: 500px;
+                             float: left;
+
+                             img{
+                                 width: 500px;
+
+                                 &:hover{
+                                    opacity: 0.5;
+                                }
+                             }
+                          }
+
+                         
+                    }
+
+                     .alt{
+                        width:  1000px;
+                        height: 650px;
+                         
+                        margin: 0 auto;
+
+                       .alt1{
+
+                        width: 500px;
+                        float: left;
+
+                        img{
+                            width: 500px;
+
+                            &:hover{
+                                opacity: 0.5;
+                            }
+                        }
+
+                       }
+                        .alt2{
+                                
+
+                            width: 500px;
+                            float: left;
+
+                            img{
+                                width: 500px;  
+
+                                &:hover{
+                                    opacity: 0.5;
+                                }
+                            }
+
+
+                        }
+
+
+                     }
+
+
+
+                }
+
+                   section{
+                       height: 600px;
+                        
+                       width: 100%;
+
+                    pre{
+                        text-align: center;
+                         letter-spacing: 8px;
+                        color: rgb(202, 165, 233);
+                         font-size: 30px;
+                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        
+                    }
+
+                       .flexcontainer1{
+                           padding-top: 30px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                             .div1{
+                                  width: 250px;
+                                  img{
+                                      width: 250px;
+
+                                      &:hover{
+                                          opacity: 0.5;
+                                      }
+                                  }
+                                    .star{
+                                        width: 10px;
+                                    }
+
+                                    .star2{
+                                        width: 10px;
+
+                                        &:hover{
+                                            cursor: pointer;
+                                        }
+                                    }
+                             }
+
+                             .div2{
+                                width: 250px;
+
+                                img{
+                                    width: 250px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 10px;
+                                  }
+
+                                  .star2{
+                                      width: 10px;
+
+                                      &:hover{
+                                          cursor: pointer;
+                                      }
+                                  }
+
+
+                             }
+
+
+                             .div3{
+                                width: 250px;
+
+                                img{
+                                    width: 250px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 10px;
+                                  }
+
+                                   
+                             }
+
+                             .div4{
+                                width: 250px;
+
+                                img{
+                                    width: 250px;
+
+                                    &:hover{
+                                        opacity: 0.5;
+                                    }
+                                }
+                                  .star{
+                                      width: 10px;
+                                  }
+
+                                  .star2{
+                                      width: 10px;
+
+                                      &:hover{
+                                          cursor: pointer;
+                                      }
+                                  }
+                             }
+
+                       }
+
+                  
+            }
+
+           footer{
+               
+             width: 100%;
+             height: 200px;
+             
+             background-color: rgb(196, 204, 196);
+              
+
+              .son{
+                  padding-top: 10px;
+                display: flex;
+                justify-content: space-between;;
+                flex-direction: row;
+                 .sag{
+                       ul{
+                           li{
+                               list-style: none;
+                               display: block;
+                               width: 130px;
+                               float: left;
+                               font: 13px bold;
+                               color: grey;
+                               &:hover{
+                                   color: black;
+                                   cursor: pointer;
+                               }
+                           }
+                       }
+
+                 }
+
+                 .orta{
+                    width: 150px;
+                    height: 60px;
+                       
+
+                       P{
+                           color: black;
+                            letter-spacing: 5px;
+                           font: 25px bold;
+
+                           &:hover{
+                               transform: scale(1.2);
+                           }
+                       }
+
+                 }
+                  .sol{
+                        width: 270px;
+                         h6{
+                             font: 16px bold;
+                             color: grey;  float: left;
+                         }
+                         img{
+                             padding-top: 35px;
+                             padding-left: 10px;
+                             width: 20px;
+                             float: left;
+                              &:hover{
+                                  transform: scale(1.2);
+                              }
+                         }
+                  }
+              }
+            
+                h3{
+                    color: rgb(97, 94, 94);
+                    text-align: center;
+                    padding-top: 50px;
+                     
+                    &:hover{
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+
+
+           }
+
+
+
+
+        }
+    }
+}
+}
+    
