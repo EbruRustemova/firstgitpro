@@ -1,0 +1,246 @@
+ 
+@media only screen and (max-width: 600px) {
+
+    body{
+        main{
+            .container{
+                .row{
+    
+                  header{
+                      width: 100%;
+                      height: 60px;
+                      border-bottom: 1px solid grey;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      padding-top: 10px;
+    
+    
+                      .left{
+                          width: 60px;
+                           height: 50px;
+                            padding-left: 10px;
+                        
+                           img{
+                               width: 15px;
+                           }
+                      }
+                       .center{
+                        width: 700px;
+                        height: 40px;
+                         
+                        padding-top: 5px;
+    
+                        ul{
+                             li{
+                                 display:inline-block;
+                                 list-style: none;
+                                 width: 40px;
+                                 font: 10px bold;
+                                 color: rgb(68, 66, 66);
+    
+    
+                                 &:hover{
+                                     cursor: pointer;
+                                     color: rgb(177, 111, 14) ;
+                                 }
+                                 
+                                 
+                             }
+
+                             .sonuncu{
+                                width: 60px;
+                                height: 35px;
+                                  color: white;
+                                background-color: rgb(177, 111, 14) ;
+   
+                                &:hover{
+                                   cursor: pointer;
+                                   color:  white ;
+                                   background-color: rgb(43, 41, 41);
+                                }
+                            }
+
+
+
+                        }
+                       }
+                       .right{
+                        width: 50px;
+                        height: 50px;
+                         
+    
+                        img{
+                            width: 10px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(1.1);
+                            }
+                        }
+                       }
+    
+                  }
+                  
+                  section{
+                      margin-top: 2em;
+                       
+                      width: 100%;
+                      height: 200px;
+                      
+                       display: flex;
+                       flex-direction: row;
+                       justify-content: space-between;
+                      
+                      .left1{
+                          margin-top: 6em;
+                          width: 80px;
+                          height: 10px;
+                            border: 1px solid ;
+                          transform: rotate(90deg);
+                          
+    
+    
+                          pre{
+                              font: 6px bold;
+                              color: rgb(22, 22, 22);
+                              text-align: center;
+                                
+                              
+                              
+                          }
+    
+                      }
+                      .center1{
+                          padding-top: 20px;
+                        height: 130px;
+                        width: 80px;
+                         
+            
+                        img{
+                            width: 60px;
+    
+                            &:hover{
+                                opacity: 0.5;
+                                cursor: pointer;
+                                 
+                            }
+                        }
+    
+                      }
+    
+                      .center2{
+                        padding-top: 20px;
+                        height: 700px;
+                        width: 200px;
+                        display: flex;
+                        flex-direction:column;
+    
+    
+                        .div1{
+                              width: 150px;
+                              height: 30px;
+                               
+                              h2{
+                                  text-align: center;
+                                  font-size: 10px;
+                                  
+                                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                              }
+    
+                              h6{
+                                  text-align: center;
+                                  font: 5px bold;
+                                  color: grey;
+                              }
+                        }
+                        .div2{
+                            width: 150px;
+                            height: 50px;
+                             
+    
+                            pre{
+                                text-align: center;
+                                font-size: 5px;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            }
+                        }
+                        .div3{
+                            width: 150px;
+                            height: 100px;
+                            
+                            
+    
+                            h1{
+                                text-align: center;
+                                color: rgb(99, 66, 4);
+                                font-size: 25px;
+                            }
+    
+                            .button{
+                                 margin-top: 5px;
+                                 font-size: 3px;
+                               width: 40px;
+                               height: 20px;
+                                margin-left: 5em;
+                               background-color: rgb(34, 33, 33);
+                               color: white;
+    
+                               &:hover{
+                                 cursor: pointer;
+                                 background-color: rgb(236, 229, 229);
+                                  color: black;
+    
+                               }
+                            }
+    
+                            .submit{
+                                width: 40px;
+                                height: 20px;
+                                font-size: 3px;
+    
+                                &:hover{
+                                    cursor: pointer;
+                                    background-color: rgb(34, 33, 33);
+                                    color: white;
+    
+                                }
+                            }
+    
+                        }
+     
+                      }
+    
+                      .right1{
+                        height: 20px;
+                        width: 20px;
+                        border: 1px solid rgb(173, 171, 171);
+                        border-radius: 20px;
+    
+                        &:hover{
+                            background-color: rgb(177, 111, 14);
+                            cursor: pointer;
+                        }
+                      }
+                  }
+    
+    
+                }
+            }
+        }
+    }
+
+
+}
+
+ 
+ 
+
+ 
+@media only screen and (min-width: 768px) { }
+
+ 
+@media only screen and (min-width: 992px) { }
+
+ 
+@media only screen and (min-width: 1200px) { }
