@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="10.css">
+    
+    <title>Document</title>
+</head>
+<body  onload="koduret()">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-sm-12 col-md-12 col-xl-12">
+                 <div class="esas">
+                      <form action="" method="GET">
+                          <table >
+                             <tr>
+                                 <td width="180">Ad:</td>
+                                 <td width="270"><input type="text"   id="ad" value="Adinizi yazin!" onfocus="odaklan(this.id)" onblur="cikis(this.id,this.value)"> </td>
+                                 <td width="270"><span id="aduyari"></span></td>
+                             </tr>
+                             <tr>
+                                <td>Soyad:</td>
+                                <td><input type="text" id="soyad" value="Soyadinizi yazin!" onfocus="odaklan(this.id)" onblur="cikis(this.id,this.value)"> </td>
+                                <td><span id="soyaduyari"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Istifadeci adi:</td>
+                                <td><input type="text"  id="istad" value="Istifadeci adinizi yazin!" onfocus="odaklan(this.id)" onblur="cikis(this.id,this.value)"></td>
+                                <td><span id="kadiuyari"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Parol</td>
+                                <td><input type="text"   id="parol" value="Parol yazin!" onfocus="odaklan(this.id)" onblur="cikis(this.id,this.value)"></td>
+                                <td><span id="parolauyari"></span></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><input type="text"   id="mail" value="E-maili yazin!" onfocus="odaklan(this.id)" onblur="cikis(this.id,this.value)"></td>
+                                <td><span id="mailuyari"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Dogum-tarixi </td>
+                                <td> <select name="" id="gun" onfocus="odaklan(this.id)">
+                                    <option value=" "></option>
+                                    <option value="1-10">1-10</option>
+                                    <option value="11-21">11-21</option>
+                                    <option value="22-31">22-31</option>
+                                </select>
+                                    <select name="" id="ay" onfocus="odaklan(this.id)">
+                                    <option value=""></option>
+                                    <option value="Yanvar">Yanvar</option>
+                                    <option value="Fevral">Fevral</option>
+                                    <option value="Mart">Mart</option>
+                                    <option value="Aprel">Aprel</option>
+                                    <option value="May">May</option>
+                                    <option value="Iyun">Iyun</option>
+                                    <option value="Iyul">Iyul</option>
+                                    <option value="Avqust">Avqust</option>
+                                    <option value="Sentyabr">Sentyabr</option>
+                                    <option value="Oktyabr">Oktyabr</option>
+                                    <option value="Noyabr">Noyabr</option>
+                                    <option value="Dekabr">Dekabr</option>
+                                    </select>
+                                    <select name="" id="il" onfocus="odaklan(this.id)">
+                                    <option value=""></option>
+                                    <option value="1970-1980">1970-1980</option>
+                                    <option value="1980-1990">1980-1990</option>
+                                    <option value="1990-2000">1990-2000</option>
+                                    </select></td>
+                                <td  ></td>
+                            </tr>
+                            <tr>
+                                <td>Dogum-yeri</td>
+                                <td><select name="" id="seher" onfocus="odaklan(this.id)">
+                                    <option value="seher">Seher</option>
+                                    <option value="Sumqayit">Sumqayit</option>
+                                    <option value="Baki">Baki</option>
+                                    <option value="Gence">Gence</option>
+                                </select>
+                                    <select name="" id="olke" onfocus="odaklan(this.id)">
+                                    <option value="Olke">Olke</option>
+                                    <option value="Azerbaycan">Azerbaycan</option>
+                                    <option value="Turkiye"> Turkiye</option>
+                                    <option value="Iran">Iran</option>
+
+                                    </select></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Cinsiyyet</td>
+                                <td><input  type="radio" name="ewfqwf">Kisi <input  type="radio" name="ewfqwf">Qadin</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Hobiler</td>
+                                <td><input type="checkbox" name="">Spor<input type="checkbox" name="">Kitab<input type="checkbox" name="">musiqi<input type="checkbox" name="">Cinema</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="" id="oxunankod"></td>
+                                <td><input type="text" name="" id="yazdiginizkod" onfocus="odaklan(this.id)"></td>
+                                <td><span id="guvenlikuyari"></span></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="button" value="Enter" class="button" onclick="islem()"></td>
+                                <td></td>
+                            </tr>
+                             
+                          </table>
+                      </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <script type="text/javascript"> 
+    function koduret()
+    {
+       var kodlar="";
+       for(var i=1; i<=6; i++)
+       {
+           if(Math.round(Math.random())==1)
+            {
+                kodlar=kodlar+String.fromCharCode(65+25*Math.random());
+            
+            }else
+            {
+                kodlar=kodlar+String.fromCharCode(48+9*Math.random());
+            }
+       }
+       document.getElementById("oxunankod").value=kodlar;
+
+    }
+
+     </script>
+       <script src="10.js"></script>
+</body>
+</html>
